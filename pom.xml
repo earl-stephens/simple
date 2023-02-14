@@ -4,11 +4,20 @@
 		http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>training.maven.quick</groupId>
-    <artifactId>simple</artifactId>
-    <version>1.0</version>
+    <artifactId>simple-example</artifactId>
+    <packaging>jar</packaging>
+    <version>1.1-SNAPSHOT</version>
+    <name>Simple Example</name>
+    <description>
+      This project is a simple example Maven project designed to work with Java
+      applications packaged into a JAR file.
+    </description>
+    <inceptionYear>2023</inceptionYear>
+    <url>http://maven.training</url>
   <properties>
     <java.version>16</java.version>
     <maven.compiler.source>16</maven.compiler.source>
     <maven.compiler.target>16</maven.compiler.target>
   </properties>
+
 </project>
